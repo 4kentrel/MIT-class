@@ -1,0 +1,30 @@
+form{
+    background-color: red;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+input[type=text],input[type=email],input[type=password],input[text=date]{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #ee6e6e;
+    margin-left: 200px;
+}
+button:hover{
+    background-color:darkblue;
+}
